@@ -1,6 +1,6 @@
 #This is a basic practice with IIFEs 
 ##Program allows user input in Radio Buttons to output a total cost of a 'sandwich' based on the 'toppings' selected
-
+##Below are the instructions for the assignment
 
 
 
@@ -10,11 +10,7 @@ Setup
 
 These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below and paste. It doesn't matter what directory you are currently in.
 
-mkdir -p ~/workspace/exercises/spa/sandwich && cd $_
-touch index.html
-mkdir javascripts && cd javascripts
-touch SandwichMaker.js
-Instructions
+###Instructions
 
 Create a sandwich order form that allows the user to select all the ingredients for a custom deli sandwich. Create a Sandwich module, then create the following as individual modules, using IIFE syntax, to augment Sandwich:
 
