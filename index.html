@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Sandwich Maker</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+<Div> 
+<div id="meat-chooser">Meats: 
+<label><input type="radio" name="radio1" value="turkey">Turkey $0.99</label>
+<label><input type="radio" name="radio1" value="salami">Salami $1.50</label>
+<label><input type="radio" name="radio1" value="bacon">Bacon $2.00</label>
+<label><input type="radio" name="radio1" value="none">none $0.00</label>
+</div>
+<div id="cheese-chooser">Cheese: 
+<label><input type="radio" name="radio2" value="american">American $0.99</label>
+<label><input type="radio" name="radio2" value="provolone">Provolone $1.50</label>
+<label><input type="radio" name="radio2" value="swiss">Swiss $2.00</label>
+<label><input type="radio" name="radio2" value="none">none $0.00</label>
+</div>
+<div id="bread-chooser">Bread: 
+<label><input type="radio" name="radio3" value="white">White $0.99</label>
+<label><input type="radio" name="radio3" value="wheat">Wheat $1.50</label>
+<label><input type="radio" name="radio3" value="sourdough">Sourdough $2.00</label>
+<label><input type="radio" name="radio3" value="none">none $0.00</label>
+</div>
+<div id="condo-chooser">Condiments: 
+<label><input type="radio" name="radio4" value="mustard">Mustard $0.99</label>
+<label><input type="radio" name="radio4" value="pickles">Pickles $1.50</label>
+<label><input type="radio" name="radio4" value="tomatoes">Tomatoes $2.00</label>
+<label><input type="radio" name="radio4" value="none">none $0.00</label>
+</div>
+</Div>
+<h1>How Much Do I Owe Ya?</h1>
+<button id="make-sandwich">Make Dat Sandwich</button>
+<div id="output"></div>
+<div id="toppings"></div>
+
+<script src="javascripts/SandwichMaker.js"></script>
+<script src="javascripts/meat.js"></script>
+<script src="javascripts/cheese.js"></script>
+<script src="javascripts/bread.js"></script>
+<script src="javascripts/condiments.js"></script>
+<script src="javascripts/DOMhandler.js"></script>
+	
+</body>
+</html>
